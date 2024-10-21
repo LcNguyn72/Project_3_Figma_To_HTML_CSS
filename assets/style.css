@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/* ///////////hero-top/////////// */
+.hero {
+  background: #10375c;
+  height: 800px;
+}
+.hero-top {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-top__icon {
+  display: flex;
+  gap: 6px;
+}
+.hero-top__icon--p {
+  width: 50px;
+  color: #fff;
+  text-align: right;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 77.78%; /* 77.778% */
+}
+strong {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.navbar__list {
+  display: flex;
+  gap: 42px;
+}
+.navbar__list--item {
+  color: #c9d2da;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+}
+.hero-top__gr {
+  display: flex;
+  gap: 28px;
+}
+.hero-top__gr--log-in {
+  color: #c9d2da;
+  text-align: right;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+  display: flex;
+  align-items: center;
+}
+.hero-top__gr--sign-up {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 175%;
+  width: 104px;
+  height: 44px;
+  border-radius: 22px;
+  background: #2e80ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__list--item:hover {
+  color: #fff;
+}
+.hero-main {
+  display: flex;
+  margin-top: 76px;
+  justify-content: space-between;
+}
+.hero-main__left {
+  margin-top: 60px;
+}
+.hero-main__left--heading {
+  width: 517px;
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 114.286%;
+  letter-spacing: -1.4px;
+}
+.hero-main__left--desc {
+  width: 468px;
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 166.667%;
+  margin-top: 22px;
+}
+.hero-main__left--gr {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.left__gr--book {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 166.667%;
+  width: 205px;
+  height: 60px;
+  border-radius: 30px;
+  background: #2e80ce;
+  padding: 15px 46px;
+  display: inline-block;
+}
+.left__gr--hotline {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 166.667%;
+}
+.hero-main__right--big {
+  width: 330px;
+  height: 540px;
+  border-radius: 6px;
+}
+.hero-main__right--small {
+  width: 210px;
+  height: 410px;
+  border-radius: 0px 6px 6px 0px;
+  margin-left: -5px;
+  margin-bottom: 65px;
+}
