@@ -22,7 +22,7 @@ a {
   background: #10375c;
   height: 800px;
 }
-.hero-top {
+.hero__top {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ a {
   display: flex;
   gap: 6px;
 }
-.hero-top__icon--p {
+.hero-top__p {
   width: 50px;
   color: #fff;
   text-align: right;
@@ -44,11 +44,11 @@ strong {
   font-size: 1rem;
   font-weight: 200;
 }
-.navbar__list {
+.hero-top__list {
   display: flex;
   gap: 42px;
 }
-.navbar__list--item {
+.hero-top__item {
   color: #c9d2da;
   text-align: center;
   font-size: 1.6rem;
@@ -59,7 +59,7 @@ strong {
   display: flex;
   gap: 28px;
 }
-.hero-top__gr--log-in {
+.hero-top__log-in {
   color: #c9d2da;
   text-align: right;
   font-size: 1.6rem;
@@ -68,7 +68,7 @@ strong {
   display: flex;
   align-items: center;
 }
-.hero-top__gr--sign-up {
+.hero-top__sign-up {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 400;
@@ -81,10 +81,10 @@ strong {
   justify-content: center;
   align-items: center;
 }
-.navbar__list--item:hover {
+.hero-top__item:hover {
   color: #fff;
 }
-.hero-main {
+.hero__main {
   display: flex;
   margin-top: 76px;
   justify-content: space-between;
@@ -92,7 +92,7 @@ strong {
 .hero-main__left {
   margin-top: 60px;
 }
-.hero-main__left--heading {
+.hero-main__heading {
   width: 517px;
   color: #fff;
   font-size: 7rem;
@@ -100,7 +100,7 @@ strong {
   line-height: 114.286%;
   letter-spacing: -1.4px;
 }
-.hero-main__left--desc {
+.hero-main__desc {
   width: 468px;
   color: #c9d2da;
   font-size: 1.8rem;
@@ -108,13 +108,13 @@ strong {
   line-height: 166.667%;
   margin-top: 22px;
 }
-.hero-main__left--gr {
+.hero-main__gr {
   margin-top: 38px;
   display: flex;
   align-items: center;
   gap: 38px;
 }
-.left__gr--book {
+.hero-main__book {
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
@@ -127,22 +127,112 @@ strong {
   padding: 15px 46px;
   display: inline-block;
 }
-.left__gr--hotline {
+.hero-main__hotline {
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 166.667%;
 }
-.hero-main__right--big {
+.hero-main__img--big {
   width: 330px;
   height: 540px;
   border-radius: 6px;
 }
-.hero-main__right--small {
+.hero-main__img--small {
   width: 210px;
   height: 410px;
   border-radius: 0px 6px 6px 0px;
   margin-left: -5px;
   margin-bottom: 65px;
+}
+/* ////////services////// */
+.services {
+  height: 778px;
+  background-color: #fff;
+}
+.services__heading {
+  color: #10375c;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -1px;
+  margin-top: 170px;
+}
+.services__desc {
+  width: 468px;
+  color: #575f66;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 166.667%;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services__gr {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+.services__img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+}
+.services__list {
+  margin-top: 35px;
+}
+.services__items {
+  display: flex;
+  padding: 21px 18px 20px 22px;
+  gap: 19px;
+}
+.services__items:hover {
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+.services__items:hover .services-item__icon {
+  color: #fff;
+  background: #2e80ce;
+}
+.services-item__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #eff6fd;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #10375c;
+}
+.services-item__heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.services-item__desc {
+  width: 308px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+  margin-top: 8px;
+}
+.services__btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 166.667%;
+  width: 205px;
+  height: 60px;
+  border-radius: 30px;
+  background: #2e80ce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
 }
