@@ -439,3 +439,96 @@ strong {
   background: #2e80ce;
   color: #fff;
 }
+/* /////////phone///////// */
+.phone {
+  margin-top: 265px;
+}
+.container2 {
+  width: 1170px;
+  height: 427px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+  background: #2e80ce;
+}
+.phone__img {
+  width: 284px;
+  height: 522px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -90px;
+  margin-left: 70px;
+}
+.phone__gr {
+  position: relative;
+  display: flex;
+}
+.phone-gr__left {
+  margin-left: 514px;
+}
+.phone__heading {
+  width: 489px;
+  color: #fff;
+  font-family: Sora;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%; /* 120% */
+  letter-spacing: -1px;
+  margin-top: 76px;
+}
+.phone__desc {
+  width: 586px;
+  color: #fff;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 166.66%; /* 166.667% */
+  margin-top: 18px;
+}
+.phone__dow {
+  display: flex;
+  gap: 28px;
+  margin-top: 38px;
+}
+.phone-dow__gr {
+  width: 135px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  display: flex;
+  gap: 8px;
+}
+.phone-dow__icon {
+  width: 20.91px;
+  height: 24.925px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.phone__1 {
+  width: 51.848px;
+  height: 16.269px;
+  fill: #fff;
+  stroke-width: 0.2px;
+  stroke: #fff;
+}
+.phone__2 {
+  width: 73.848px;
+  height: 16.269px;
+  fill: #fff;
+  stroke-width: 0.2px;
+  stroke: #fff;
+}
+.phone__3 {
+  width: 80px;
+  height: 16.269px;
+  fill: #fff;
+  stroke-width: 0.2px;
+  stroke: #fff;
+}
+.phone__4 {
+  width: 73.848px;
+  height: 16.269px;
+  fill: #fff;
+  stroke-width: 0.2px;
+  stroke: #fff;
+}
