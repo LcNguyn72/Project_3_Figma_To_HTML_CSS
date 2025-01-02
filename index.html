@@ -87,6 +87,7 @@
     />
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
     <title>Shine</title>
   </head>
   <body>
@@ -135,6 +136,28 @@
         </div>
       </div>
     </header>
+    <div class="mobile__header">
+      <input
+        type="checkbox"
+        name="menu__checkbox"
+        id="menu__checkbox"
+        class="mobile__header--menu"
+        hidden
+      />
+      <label for="menu__checkbox">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="hero__top--menu"
+        >
+          <path
+            fill="CurrentColor"
+            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </label>
+      <label for="menu__checkbox" class="mobile__header--overlay"></label>
+    </div>
     <div class="services">
       <div class="container">
         <h2 class="services__heading">Our services</h2>
