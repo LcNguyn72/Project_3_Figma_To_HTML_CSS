@@ -1,4 +1,7 @@
 @media (min-width: 992px) {
+  .mobile__header {
+    display: none;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -10,7 +13,7 @@
   }
   .hero-top__icon {
     position: absolute;
-    left: 50%;
+    left: 40%;
   }
   .hero__top--menu {
     position: absolute;
@@ -32,10 +35,297 @@
     opacity: 1;
     visibility: visible;
   }
+  .mobile__header--drawer {
+    position: fixed;
+    background-color: rgb(90, 46, 46);
+    inset: 0 40% 0 0;
+    z-index: 2;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    padding: 60px;
+  }
+  .mobile__header--menu:checked ~ .mobile__header--drawer {
+    transform: translateX(0%);
+  }
+  .drawer-top__icon {
+    display: flex;
+    gap: 6px;
+  }
+  .drawer-top__p {
+    width: 50px;
+    color: #fff;
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 77.78%; /* 77.778% */
+  }
+  strong {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .drawer-top__svg {
+    width: 20px;
+    color: #fff;
+  }
+  .drawer__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero__main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-main__right {
+    order: 1;
+  }
+  .hero-main__left {
+    order: 2;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-main__heading {
+    width: 100%;
+  }
+  .hero-main__desc {
+    width: 100%;
+  }
+  .hero-main__gr {
+    justify-content: center;
+  }
+  .services__gr {
+    flex-direction: column;
+  }
+  .services__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services__items {
+    justify-content: center;
+  }
+  .gr {
+    width: 70%;
+  }
+  .services-item__desc {
+    width: 100%;
+  }
+  .services-item__heading {
+    display: flex;
+    justify-content: center;
+  }
+  .services__btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .work__heading {
+    text-align: center;
+  }
+  .work__desc {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .work__gr {
+    display: block;
+  }
+  .work-item {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .take__gr {
+    display: block;
+  }
+  .take-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .take-left__img--small {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  .take-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .take-right__heading {
+    text-align: center;
+  }
+  .take-right__desc {
+    text-align: center;
+  }
+  .dentist__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .dentist-item__img {
+    margin: 0 auto;
+    display: block;
+  }
+  .phone__img {
+    display: none;
+  }
+  .phone-gr__left {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .phone__heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone-dow__gr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .read__gr {
+    flex-direction: column;
+  }
+  .read__left {
+    text-align: center;
+  }
+  .read-left__heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .read-left__gr {
+    justify-content: center;
+  }
+  .read__right {
+    justify-content: space-around;
+  }
+  .always__heading {
+    width: 80%;
+  }
+  .always__desc {
+    width: 80%;
+  }
+  .mobile__header--list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 991.98) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .end__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .only-on-phone {
+    display: none;
+  }
 }
 
 @media (max-width: 767.98px) {
+  .hero-top__gr {
+    display: none;
+  }
+  .hero-top__icon {
+    top: 35px;
+  }
+  .li__oop a {
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 175%;
+  }
+  .li__oop {
+    padding: 5px 0 0;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  .ul__oop {
+    border-top: 1px solid #ffffff;
+  }
+  .hero-main__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-main__heading {
+    font-size: 5rem;
+  }
+  .hero-main__book {
+    display: flex;
+    align-items: center;
+  }
+  .services__desc {
+    width: 90%;
+  }
+  .services__img {
+    width: 90%;
+    object-fit: cover;
+  }
+  .services-item__heading {
+    justify-content: start;
+  }
+  .work__desc {
+    width: 80%;
+  }
+  .work-item__icon {
+    margin-left: 0;
+  }
+  .work-item__heading {
+    margin-left: 0;
+  }
+  .work-item__learn-more {
+    margin-left: 0;
+  }
+  .take-left__img--big {
+    width: 90%;
+    object-fit: cover;
+  }
+  .take-right__heading {
+    width: 100%;
+  }
+  .take-right__desc {
+    width: 90%;
+  }
+  .dentist__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .phone__heading {
+    width: 90%;
+    font-size: 3rem;
+  }
+  .phone__desc {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone {
+    margin-top: 100px;
+  }
+  .read-left__heading {
+    width: 100%;
+  }
+  .read__right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .read-right__heading {
+    text-align: center;
+  }
+  .read-right__desc {
+    text-align: center;
+  }
+  .read-right__learn {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .end__main {
+    flex-direction: column;
+    row-gap: 10px;
+  }
 }

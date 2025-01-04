@@ -20,7 +20,7 @@ a {
 /* ///////////hero-top/////////// */
 .hero {
   background: #10375c;
-  height: 800px;
+  padding-bottom: 100px;
 }
 .hero__top {
   padding-top: 30px;
@@ -50,7 +50,6 @@ strong {
 }
 .hero-top__item {
   color: #c9d2da;
-  text-align: center;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 175%;
@@ -148,8 +147,8 @@ strong {
 }
 /* ////////services////// */
 .services {
-  height: 778px;
   background-color: #fff;
+  padding-bottom: 100px;
 }
 .services__heading {
   color: #10375c;
@@ -265,7 +264,6 @@ strong {
   margin-top: 86px;
 }
 .work-item {
-  width: 370px;
   height: 402px;
   border-radius: 4px;
   background: #fff;
@@ -394,7 +392,8 @@ strong {
   margin-right: auto;
 }
 .dentist__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin-top: 70px;
 }
@@ -636,7 +635,6 @@ strong {
 .always {
   background: #f6fbff;
   margin-top: 170px;
-  height: 452px;
 }
 .always__heading {
   width: 813px;
@@ -689,7 +687,6 @@ strong {
   background: #10375c;
   padding-top: 100px;
   margin-top: 170px;
-  height: 553px;
 }
 .end__main {
   display: flex;
@@ -825,7 +822,7 @@ input:not(:placeholder-shown) {
   margin-top: 10px;
 }
 .end__hr {
-  width: 1170px;
+  width: 100%;
   height: 1px;
   background: #406181;
   margin-top: 28px;
